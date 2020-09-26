@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container-header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    margin-right: 50px;
+}
+.container-header a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.664);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.container-header a:hover{
+    text-decoration: underline;
+}
+.container-header a:first-child{
+    margin-right:20px ;
+}
+.container.search{
+    margin-bottom: 40px;
+}
+
+.search{
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20PX;
+}
+.search svg {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;;
+}
+.search input, .search input:focus-within, .buttons input{
+    border: none;
+    outline: none;
+}
+.search:hover, .search:focus-within{
+    box-shadow: 2px 2px 5px 2px #88888834;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons input{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.buttons input:first-child{
+    margin-right: 10px;
+}
+.buttons input:hover {
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    box-shadow: 1px 2px 1px #aeaeae13;
+    cursor: pointer;
+}
+
+.footer-row{
+    padding: 11px 25px;
+    background-color: rgba(243, 243, 243, 0.842);
+    border: 1px solid #e4e4e4;
+    
+}
+.footer-row:first-child{
+    border-bottom: none;
+}
+.footer-row a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:rgba(0, 0, 0, 0.548);   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.footer-row a:hover{
+    text-decoration: underline;
+}
+.footer-row.two {
+    display:flex;
+}
+.footer-row.two  .lst{
+    margin-left: auto;
+    float: right;
+  
+}
+main{
+padding-bottom: 45px;    
+margin-top: 10%;
+}
+.footer-container{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+

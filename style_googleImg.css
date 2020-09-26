@@ -1,0 +1,31 @@
+.logo-subtext{
+    color: #4285f4;
+    font: 16px/16px arial, sans-serif;
+    left: 110px;
+    position: relative;
+    top: -20px;
+    white-space: nowrap;
+}
+.search{
+    margin: 5px;
+}
+.search svg#send{
+    color: #4285f4;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.search input#searchbar{
+margin-left: 10px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+button:focus-within{
+    outline: none;
+}
